@@ -1,7 +1,7 @@
 <template>
   <nav>
     <a href="">
-      <img src="/logo-seasky.png" class="w-20" alt="" />
+      <img src="/logo-seasky.png" width="200px" alt="" />
     </a>
   </nav>
 </template>
