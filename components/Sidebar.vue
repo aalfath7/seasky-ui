@@ -11,10 +11,7 @@
         <span class="font-bold">{{ group.groupName }}</span>
         <ul class="text-sm space-y-3 font-medium py-3">
           <li v-for="item in group.body">
-            <a
-              :href="'/docs/' + group.groupName + item.link"
-              class="hover:text-blue-800"
-            >
+            <a href="" class="hover:text-blue-800">
               <span>{{ item.name }}</span>
             </a>
           </li>
