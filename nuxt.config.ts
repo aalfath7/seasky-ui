@@ -18,11 +18,6 @@ export default defineNuxtConfig({
 
   modules: ["@nuxt/fonts"],
   fonts: {
-    families: [
-      {
-        name: "Questrial",
-        provider: "goggle",
-      },
-    ],
+    families: [],
   },
 });

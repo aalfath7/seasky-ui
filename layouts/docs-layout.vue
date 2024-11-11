@@ -1,6 +1,8 @@
 <template>
   <div>
     <Sidebar />
-    <slot />
+    <div class="mx-20 pl-60 pt-10">
+      <slot />
+    </div>
   </div>
 </template>

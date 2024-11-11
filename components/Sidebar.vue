@@ -11,7 +11,10 @@
         <span class="font-bold">{{ group.groupName }}</span>
         <ul class="text-sm space-y-3 font-medium py-3">
           <li v-for="item in group.body">
-            <a href="" class="hover:text-blue-800">
+            <a
+              :href="'/docs/' + group.groupName + item.link"
+              class="hover:text-blue-800"
+            >
               <span>{{ item.name }}</span>
             </a>
           </li>
@@ -36,7 +39,7 @@ const data = [
       },
       {
         name: "contents",
-        link: "/getting-started",
+        link: "/contents",
       },
     ],
   },
@@ -45,15 +48,15 @@ const data = [
     body: [
       {
         name: "sass",
-        link: "/getting-started",
+        link: "/sass",
       },
       {
         name: "options",
-        link: "/getting-started",
+        link: "/options",
       },
       {
         name: "colors",
-        link: "/getting-started",
+        link: "/colors",
       },
     ],
   },
@@ -62,27 +65,27 @@ const data = [
     body: [
       {
         name: "breakpoints",
-        link: "/getting-started",
+        link: "/breakpoints",
       },
       {
         name: "page wrappper",
-        link: "/getting-started",
+        link: "/page-wrapper",
       },
       {
         name: "containers",
-        link: "/getting-started",
+        link: "/containers",
       },
       {
         name: "grid",
-        link: "/getting-started",
+        link: "/grid",
       },
       {
         name: "header",
-        link: "/getting-started",
+        link: "/header",
       },
       {
         name: "footer",
-        link: "/getting-started",
+        link: "/footer",
       },
     ],
   },
@@ -91,31 +94,31 @@ const data = [
     body: [
       {
         name: "reset",
-        link: "/getting-started",
+        link: "/reset",
       },
       {
         name: "document",
-        link: "/getting-started",
+        link: "/document",
       },
       {
         name: "typography",
-        link: "/getting-started",
+        link: "/typography",
       },
       {
         name: "images",
-        link: "/getting-started",
+        link: "/images",
       },
       {
         name: "tables",
-        link: "/getting-started",
+        link: "/tables",
       },
       {
         name: "buttons",
-        link: "/getting-started",
+        link: "/buttons",
       },
       {
         name: "forms",
-        link: "/getting-started",
+        link: "/forms",
       },
     ],
   },
@@ -153,23 +156,23 @@ const data = [
     body: [
       {
         name: "overview",
-        link: "/getting-started",
+        link: "/overview",
       },
       {
         name: "text colors",
-        link: "/getting-started",
+        link: "/text-colors",
       },
       {
         name: "background colors",
-        link: "/getting-started",
+        link: "/background-colors",
       },
       {
         name: "text alignment",
-        link: "/getting-started",
+        link: "/text-alignment",
       },
       {
         name: "spacing",
-        link: "/getting-started",
+        link: "/spacing",
       },
     ],
   },
