@@ -1,11 +1,14 @@
 <template>
-  <div class="max-w-7xl mx-auto py-10 grid sm:grid-cols-2">
+  <div class="max-w-7xl mx-auto py-10 grid sm:grid-cols-2 space-y-10">
+    <div class="sm:order-last flex items-center justify-center">
+      <img src="/icon-seasky.png" alt="" class="h-44 sm:h-96" />
+    </div>
     <div class="space-y-5 text-center sm:text-left max-w-md mx-auto">
       <h1 class="text-2xl sm:text-5xl font-bold text-gray-700 leading-extra">
         <span class="text-blue-700">Seasky UI</span>, <br />
         A component-based UI framework with an aesthetic design.
       </h1>
-      <p class="text-2xl text-gray-700 sm:leading-8">
+      <p class="text-xl sm:text-2xl text-gray-700 sm:leading-8">
         Seasky UI is a free, open-source framework built on top of Tailwind CSS
         that is ready to use for frontend development.
       </p>

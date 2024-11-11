@@ -9,6 +9,4 @@ definePageMeta({
   layout: "docs-layout",
 });
 const route = useRoute();
-
-console.log(route);
 </script>
