@@ -8,7 +8,7 @@
         <span class="text-blue-700">Seasky UI</span>, <br />
         A component-based UI framework with an aesthetic design.
       </h1>
-      <p class="text-xl sm:text-2xl text-gray-700 sm:leading-8">
+      <p class="text-md sm:text-2xl text-gray-700 sm:leading-8">
         Seasky UI is a free, open-source framework built on top of Tailwind CSS
         that is ready to use for frontend development.
       </p>
@@ -16,7 +16,7 @@
         <a href="/docs/introduction/getting-started" class="block">
           <button
             type="button"
-            class="bg-blue-700 hover:bg-blue-800 text-white px-3 py-2 rounded-full"
+            class="bg-blue-700 hover:bg-blue-800 text-white px-3 py-2 rounded-full text-md"
           >
             Get Started
           </button>
@@ -24,7 +24,7 @@
         <a href="https://github.com/aalfath7/seasky-ui" class="block">
           <button
             type="button"
-            class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-2 rounded-full"
+            class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-3 py-2 rounded-full text-md"
           >
             View on Github
           </button>
