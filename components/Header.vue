@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1 class="font-bold text-2xl">{{ title }}</h1>
+      <h1 class="font-bold text-3xl py-2">{{ title }}</h1>
     </header>
   </div>
 </template>

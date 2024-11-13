@@ -1,0 +1,12 @@
+@use "colors";
+@use "button";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$font-stack: Inter;
+
+* {
+  font-family: $font-stack;
+}
