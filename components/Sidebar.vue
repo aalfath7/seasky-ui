@@ -117,6 +117,10 @@ const data = [
         link: "/header",
       },
       {
+        name: "navbar",
+        link: "/navbar",
+      },
+      {
         name: "footer",
         link: "/footer",
       },
