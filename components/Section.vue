@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-2 my-5 border-t">
+    <section class="py-5 my-5 border-t space-y-3">
       <slot />
     </section>
   </div>
