@@ -1,6 +1,6 @@
-<span align="center">
-<img src="./public/logo-seasky.png" height="100px"/>
-</span>
+<div style="text-align:center">
+<img src="./public/logo-seasky.png" height="200px"/>
+</div>
 
 # About Seasky UI
 
